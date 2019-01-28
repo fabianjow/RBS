@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B1CE46B21FC211C00F0A84E /* LoggedInNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1CE46A21FC211C00F0A84E /* LoggedInNC.m */; };
+		3B1CE46E21FDA3FA00F0A84E /* Booking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1CE46D21FDA3FA00F0A84E /* Booking.m */; };
 		3B2FC43E21F5DA040012D1B8 /* CALayer+XibConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2FC43D21F5DA040012D1B8 /* CALayer+XibConfiguration.m */; };
 		3B2FC48521FB429E0012D1B8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2FC48421FB429E0012D1B8 /* HomeViewController.m */; };
 		3B48303621E6080D009845AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B48303521E6080D009845AB /* AppDelegate.m */; };
@@ -23,6 +24,8 @@
 /* Begin PBXFileReference section */
 		3B1CE46921FC211C00F0A84E /* LoggedInNC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggedInNC.h; sourceTree = "<group>"; };
 		3B1CE46A21FC211C00F0A84E /* LoggedInNC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoggedInNC.m; sourceTree = "<group>"; };
+		3B1CE46C21FDA3FA00F0A84E /* Booking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Booking.h; sourceTree = "<group>"; };
+		3B1CE46D21FDA3FA00F0A84E /* Booking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Booking.m; sourceTree = "<group>"; };
 		3B2FC43C21F5DA040012D1B8 /* CALayer+XibConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+XibConfiguration.h"; sourceTree = "<group>"; };
 		3B2FC43D21F5DA040012D1B8 /* CALayer+XibConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XibConfiguration.m"; sourceTree = "<group>"; };
 		3B2FC48321FB429E0012D1B8 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				3B1CE46921FC211C00F0A84E /* LoggedInNC.h */,
 				3B1CE46A21FC211C00F0A84E /* LoggedInNC.m */,
 				3B48303A21E6080E009845AB /* Main.storyboard */,
+				3B1CE46C21FDA3FA00F0A84E /* Booking.h */,
+				3B1CE46D21FDA3FA00F0A84E /* Booking.m */,
 				3B2FC43C21F5DA040012D1B8 /* CALayer+XibConfiguration.h */,
 				3B2FC43D21F5DA040012D1B8 /* CALayer+XibConfiguration.m */,
 				3B48304021E6080E009845AB /* Assets.xcassets */,
@@ -199,10 +204,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RBS/Pods-RBS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DownPicker/DownPicker.bundle",
 				"${PODS_ROOT}/Parse/Parse/Resources/en.lproj",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DownPicker.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +247,7 @@
 				3B2FC43E21F5DA040012D1B8 /* CALayer+XibConfiguration.m in Sources */,
 				3B48304721E6080E009845AB /* main.m in Sources */,
 				3B1CE46B21FC211C00F0A84E /* LoggedInNC.m in Sources */,
+				3B1CE46E21FDA3FA00F0A84E /* Booking.m in Sources */,
 				3B48303F21E6080E009845AB /* RBS.xcdatamodeld in Sources */,
 				3B2FC48521FB429E0012D1B8 /* HomeViewController.m in Sources */,
 			);
